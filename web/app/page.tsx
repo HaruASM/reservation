@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function Home() {
   const [selectedRoom, setSelectedRoom] = useState('');
 
-  const handleRowClick = (roomType) => {
+  const handleRowClick = (roomType: string) => {
     setSelectedRoom(roomType);
   };
 
