@@ -93,11 +93,11 @@ export default function Home() {
         </div>
         <div className="input-group">
           <label>객실당 인원 수</label>
-          <select>
+          <select className="narrow-input">
             <option>객실 1개, 성인 2명, 어린이 0명</option>
           </select>
         </div>
-        <button className="search-button">예약요청</button>
+        <button className="search-button">예약</button>
       </div>
     </div>
   );
