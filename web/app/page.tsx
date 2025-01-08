@@ -22,7 +22,7 @@ export default function Home() {
           <p>09684750856</p>
           <p>hanguk333 (kakao)</p>
         </div>
-        <Image src="/logo.jpg" alt="Right Logo" width={100} height={100} />
+        <Image src="/logo.jpg" alt="Right Logo" width={100} height={100} className="right-logo" />
         <a href="#" className="map-banner">
           <Image src="/bkg-map-entry.svg" alt="Map Background" width={150} height={80} />
           <Image src="/img-map-pin-red.svg" alt="Map Pin" width={24} height={24} className="map-pin" />
@@ -44,30 +44,30 @@ export default function Home() {
             <tr onClick={() => handleRowClick('스탠다드 룸')}>
               <td>스탠다드 룸<br />STANDARD SUITE</td>
               <td>성인 2명<br />2 ADULTS</td>
-              <td className="strikethrough">₱2,500.00</td>
-              <td>₱2,000.00</td>
-              <td>₱34,000.00</td>
+              <td className="strikethrough">₱2,500</td>
+              <td>₱2,000</td>
+              <td>₱34,000</td>
             </tr>
             <tr onClick={() => handleRowClick('디럭스 스위트')}>
               <td>디럭스 스위트<br />DELUXE SUITE</td>
               <td>성인 2명<br />2 ADULTS</td>
-              <td className="strikethrough">₱2,800.00</td>
-              <td>₱2,300.00</td>
-              <td>₱37,000.00</td>
+              <td className="strikethrough">₱2,800</td>
+              <td>₱2,300</td>
+              <td>₱37,000</td>
             </tr>
             <tr onClick={() => handleRowClick('슈퍼 디럭스')}>
               <td>슈퍼 디럭스<br />SUPER DELUXE SUITE</td>
               <td>성인 2명<br />2 ADULTS</td>
-              <td className="strikethrough">₱3,000.00</td>
-              <td>₱2,500.00</td>
-              <td>₱39,000.00</td>
+              <td className="strikethrough">₱3,000</td>
+              <td>₱2,500</td>
+              <td>₱39,000</td>
             </tr>
             <tr onClick={() => handleRowClick('트윈 베드')}>
               <td>트윈 베드<br />TWIN BED SUITE</td>
               <td>성인 2명<br />2 ADULTS</td>
-              <td className="strikethrough">₱3,300.00</td>
-              <td>₱2,700.00</td>
-              <td>₱45,000.00</td>
+              <td className="strikethrough">₱3,300</td>
+              <td>₱2,700</td>
+              <td>₱45,000</td>
             </tr>
           </tbody>
         </table>

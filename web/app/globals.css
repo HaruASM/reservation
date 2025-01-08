@@ -200,3 +200,58 @@ tr:hover {
   width: 80%;
   max-width: 150px;
 }
+
+/* 모바일 스타일 */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .table-container {
+    padding: 10px;
+  }
+
+  .input-form {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .search-button {
+    width: 100%;
+    padding: 8px;
+  }
+
+  th:nth-child(2),
+  td:nth-child(2) {
+    display: none;
+  }
+
+  /* 우측 로고 숨기기 */
+  .right-logo {
+    display: none;
+  }
+}
+
+body.mobile .header {
+  flex-direction: column;
+  text-align: center;
+}
+
+body.mobile .table-container {
+  padding: 10px;
+}
+
+body.mobile .input-form {
+  flex-direction: column;
+  padding: 10px;
+}
+
+body.mobile .search-button {
+  width: 100%;
+  padding: 8px;
+}
