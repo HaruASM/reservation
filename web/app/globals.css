@@ -21,6 +21,8 @@ body {
   margin: 0;
   padding: 0;
   color-scheme: light;
+  background-color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .header {
@@ -257,4 +259,9 @@ body.mobile .input-form {
 body.mobile .search-button {
   width: 100%;
   padding: 8px;
+}
+
+html {
+  background-color: #ffffff;
+  color: #000000;
 }
