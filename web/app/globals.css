@@ -60,6 +60,8 @@ th, td {
   padding: 8px;
   text-align: center;
   width: 150px;
+  background-color: white;
+  color: black;
 }
 
 th {
